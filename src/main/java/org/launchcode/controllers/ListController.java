@@ -34,6 +34,7 @@ public class ListController {
         return "list";
     }
 
+    // list/values?akjdcnsdk
     @RequestMapping(value = "values")
     public String listColumnValues(Model model, @RequestParam String column) {
 
